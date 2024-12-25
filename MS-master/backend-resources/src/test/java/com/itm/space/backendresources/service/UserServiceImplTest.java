@@ -52,7 +52,7 @@ public class UserServiceImplTest extends BaseIntegrationTest {
     }
 
     @Test
-    void createUser_Success() {
+    void showCreateUserSuccess() {
         UserRepresentation user = new UserRepresentation();
         user.setUsername("new-user");
 
